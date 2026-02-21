@@ -179,7 +179,7 @@ class OfficeWindow(Adw.ApplicationWindow):
         super().__init__(*args, **kwargs)
 
         self.set_default_size(1280, 900)
-        self.set_title("Microsoft Office Online")
+        self.set_title("Office-GTK4")
 
         # label -> TabEntry  (named app tabs only)
         self._named_tabs: dict   = {}
@@ -611,6 +611,6 @@ class OfficeWindow(Adw.ApplicationWindow):
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    print("Office Online GTK  |  engine: WebKit 6.0 (GTK4-native)")
+    print("Office-GTK4  |  engine: WebKit 6.0 (GTK4-native)")
     app = OfficeApp()
     app.run(None)
