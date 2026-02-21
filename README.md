@@ -52,3 +52,5 @@ You will be prompted to confirm, and optionally to remove saved cookies and cach
 - Sessions and cookies are persisted between launches so you stay signed in.
 - The app uses a Chrome-compatible user agent string to ensure full Office web app functionality.
 - Tabs automatically track which Office app is active based on the current URL.
+
+  [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/mrks0001)
