@@ -57,7 +57,7 @@ button.app-active:hover {
 /* Open but in background — tinted with underline indicator */
 button.app-open {
     background-color: alpha(@accent_bg_color, 0.18);
-    color: @accent_fg_color;
+    color: @accent_color;
     border-radius: 6px;
     box-shadow: inset 0 -2px 0 0 @accent_bg_color;
 }
